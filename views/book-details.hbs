@@ -1,0 +1,7 @@
+<h1>{{book.title}}</h1>
+{{#each book.author}}
+  <span>Written by: {{name}} {{lastName}}</span>
+{{/each}}
+<p>Summary: {{book.description}}</p>
+<p>Rating: {{book.rating}}/10</p>
+<a href="/books">Return</a>
